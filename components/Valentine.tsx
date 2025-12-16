@@ -56,7 +56,7 @@ const Valentine: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 w-full relative z-10">
           <button
             className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-200 shadow-md hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-green-300 transform active:scale-95"
-            style={{ fontSize: Math.min(noCount * 20 + 16, 120) }}
+            style={{ fontSize: noCount * 20 + 16 }}
             onClick={() => setYesPressed(true)}
           >
             Yes
